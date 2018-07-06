@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b5cbf58-6195-43c9-a77a-11ef73a73cd4" name="Default" comment="" />
+    <list default="true" id="6b5cbf58-6195-43c9-a77a-11ef73a73cd4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CustomCollection/andersen/Georgiiev/CustomCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CustomCollection/andersen/Georgiiev/CustomCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CustomCollection/andersen/Georgiiev/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CustomCollection/andersen/Georgiiev/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/andersen/Georgiiev/CustomCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/andersen/Georgiiev/CustomCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/andersen/Georgiiev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/andersen/Georgiiev/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +21,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -27,19 +30,25 @@
       <file leaf-file-name="CustomCollection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/CustomCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+            <state relative-caret-position="824">
+              <caret line="178" column="39" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#CustomCollection#1;class#CustomCollection#0" />
                 <element signature="method#add#0;class#CustomCollection#0" />
+                <element signature="method#add#1;class#CustomCollection#0" />
                 <element signature="method#get#0;class#CustomCollection#0" />
                 <element signature="method#remove#0;class#CustomCollection#0" />
+                <element signature="method#removeByIndex#0;class#CustomCollection#0" />
                 <element signature="method#contains#0;class#CustomCollection#0" />
                 <element signature="method#clear#0;class#CustomCollection#0" />
                 <element signature="method#trimToSize#0;class#CustomCollection#0" />
+                <element signature="method#getMax#0;class#CustomCollection#0" />
+                <element signature="method#getMin#0;class#CustomCollection#0" />
                 <element signature="method#delete#0;class#CustomCollection#0" />
                 <element signature="method#grow#0;class#CustomCollection#0" />
+                <element signature="e#4500#4501#0" expanded="true" />
+                <element signature="e#4544#4545#0" expanded="true" />
                 <element signature="method#toString#0;class#CustomCollection#0" />
               </folding>
             </state>
@@ -62,6 +71,9 @@
       <find>index</find>
       <find>clear</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -86,6 +98,7 @@
     <option name="width" value="1299" />
     <option name="height" value="741" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -161,12 +174,12 @@
       <workItem from="1530776894174" duration="1261000" />
       <workItem from="1530780937798" duration="7078000" />
       <workItem from="1530801793899" duration="906000" />
-      <workItem from="1530860801520" duration="3490000" />
+      <workItem from="1530860801520" duration="9629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12735000" />
+    <option name="totallyTimeSpent" value="18874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -174,20 +187,21 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32913387" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.328594" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32913387" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328594" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24942264" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -199,7 +213,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +223,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -218,9 +231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -232,13 +242,19 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
+            <element signature="method#add#1;class#CustomCollection#0" />
             <element signature="method#get#0;class#CustomCollection#0" />
             <element signature="method#remove#0;class#CustomCollection#0" />
+            <element signature="method#removeByIndex#0;class#CustomCollection#0" />
             <element signature="method#contains#0;class#CustomCollection#0" />
             <element signature="method#clear#0;class#CustomCollection#0" />
             <element signature="method#trimToSize#0;class#CustomCollection#0" />
+            <element signature="method#getMax#0;class#CustomCollection#0" />
+            <element signature="method#getMin#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
+            <element signature="e#4500#4501#0" expanded="true" />
+            <element signature="e#4544#4545#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -259,13 +275,19 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
+            <element signature="method#add#1;class#CustomCollection#0" />
             <element signature="method#get#0;class#CustomCollection#0" />
             <element signature="method#remove#0;class#CustomCollection#0" />
+            <element signature="method#removeByIndex#0;class#CustomCollection#0" />
             <element signature="method#contains#0;class#CustomCollection#0" />
             <element signature="method#clear#0;class#CustomCollection#0" />
             <element signature="method#trimToSize#0;class#CustomCollection#0" />
+            <element signature="method#getMax#0;class#CustomCollection#0" />
+            <element signature="method#getMin#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
+            <element signature="e#4500#4501#0" expanded="true" />
+            <element signature="e#4544#4545#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -286,13 +308,19 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
+            <element signature="method#add#1;class#CustomCollection#0" />
             <element signature="method#get#0;class#CustomCollection#0" />
             <element signature="method#remove#0;class#CustomCollection#0" />
+            <element signature="method#removeByIndex#0;class#CustomCollection#0" />
             <element signature="method#contains#0;class#CustomCollection#0" />
             <element signature="method#clear#0;class#CustomCollection#0" />
             <element signature="method#trimToSize#0;class#CustomCollection#0" />
+            <element signature="method#getMax#0;class#CustomCollection#0" />
+            <element signature="method#getMin#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
+            <element signature="e#4500#4501#0" expanded="true" />
+            <element signature="e#4544#4545#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -343,31 +371,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-10-jdk-amd64/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/CustomCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        <state relative-caret-position="824">
+          <caret line="178" column="39" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
+            <element signature="method#add#1;class#CustomCollection#0" />
             <element signature="method#get#0;class#CustomCollection#0" />
             <element signature="method#remove#0;class#CustomCollection#0" />
+            <element signature="method#removeByIndex#0;class#CustomCollection#0" />
             <element signature="method#contains#0;class#CustomCollection#0" />
             <element signature="method#clear#0;class#CustomCollection#0" />
             <element signature="method#trimToSize#0;class#CustomCollection#0" />
+            <element signature="method#getMax#0;class#CustomCollection#0" />
+            <element signature="method#getMin#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
+            <element signature="e#4500#4501#0" expanded="true" />
+            <element signature="e#4544#4545#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>

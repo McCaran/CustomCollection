@@ -4,19 +4,18 @@ import java.util.Iterator;
 import java.util.Objects;
 
 public class CustomCollection<T extends Number> implements Iterable<T>{
-    private final Object[] EMPTY_ARRAY = {};
     private final int DEFAULT_CAPACITY = 10;
-    private Object[] elements;
+    private Number[] elements;
     private int size = 0;
     private int capacity = DEFAULT_CAPACITY;
 
     public CustomCollection() {
-        elements = new Object[DEFAULT_CAPACITY];
+        elements = new Number[DEFAULT_CAPACITY];
     }
 
     public CustomCollection(int size) {
         if (size > 0) {
-            elements = new Object[size];
+            elements = new Number[size];
         } else {
             throw new IllegalArgumentException("Неверный размер: " + size);
         }
@@ -58,65 +57,130 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
         return true;
     }
 
-    public boolean removeByIndex(int index) {
-        return true;
+    public void removeByIndex(int index) {
+        Objects.checkIndex(index, size);
+        delete(index);
     }
 
     public boolean contains(T element) {
         if (element == null) {
-            for (Object o: elements) {
-                if (o == null) return true;
+            for (int i = 0; i < size; i++) {
+                if (elements[i] == null) return true;
             }
-        } else for (Object o: elements) {
-            if (o == null) continue;
-            if (o.equals(element)) return true;
+        } else for (int i = 0; i < size; i++) {
+            if (elements[i] == null) continue;
+            if (elements[i].equals(element)) return true;
         }
         return false;
     }
 
     public void clear() {
-        elements = new Object[DEFAULT_CAPACITY];
+        elements = new Number[DEFAULT_CAPACITY];
         size = 0;
         capacity = DEFAULT_CAPACITY;
     }
 
     public void trimToSize() {
-
+        Number[] newArray = new Number[size];
+        System.arraycopy(elements,0, newArray, 0, size);
+        elements = newArray;
     }
 
-    public double getAverage() {
-        return 0;
+    public Double getAverage() {
+        if (isEmpty()) {
+            return null;
+        }
+        Double average = 0.0;
+        for (Double value: getNumbers()) {
+            average += value;
+        }
+        return average/size;
     }
 
     public T getMax() {
-        return null;
+        if (isEmpty()) {
+            return null;
+        }
+        Double max = Double.valueOf(elements[0].toString());
+        int maxIndex = 0;
+        Double[] numbers = getNumbers();
+        for (int i = 1; i < size; i++) {
+            if (numbers[i] == null) continue;
+            if (numbers[i] > max) {
+                max = numbers[i];
+                maxIndex = i;
+            }
+        }
+        return get(maxIndex);
     }
 
     public T getMin() {
-        return null;
+        if (isEmpty()) {
+            return null;
+        }
+        Double min = Double.valueOf(elements[0].toString());
+        int minIndex = 0;
+        Double[] numbers = getNumbers();
+        for (int i = 1; i < size; i++) {
+            if (numbers[i] == null) continue;
+            if (numbers[i] < min) {
+                min = numbers[i];
+                minIndex = i;
+            }
+        }
+        return get(minIndex);
     }
 
     public int getSize() {
         return size;
     }
 
+    public boolean isEmpty() {
+        return (size == 0);
+    }
+
+    private Double[] getNumbers() {
+        Double[] numbers = new Double[size];
+        for (int i = 0; i < size; i++) {
+            if (elements[i] == null) numbers[i] = null;
+            else numbers[i] = Double.valueOf(elements[i].toString());
+        }
+        return numbers;
+    }
+
     private void delete(int index) {
         if (index == size-1) {
             elements[--size] = null;
+        } else {
+            System.arraycopy(elements,index+1, elements, index, size-index-1);
+            elements[--size] = null;
         }
-
     }
 
     private void grow() {
         capacity = (capacity*3)/2+1;
-        Object[] newArray = new Object[capacity];
+        Number[] newArray = new Number[capacity];
         System.arraycopy(elements, 0, newArray, 0, size);
         elements = newArray;
     }
 
     @Override
     public Iterator<T> iterator() {
-        return null;
+        return new Iterator<T>() {
+            int cursor = 0;
+            @Override
+            public boolean hasNext() {
+                return (cursor < size);
+            }
+
+            @Override
+            public T next() {
+                if (cursor < elements.length) {
+                    return get(cursor++);
+                }
+                return null;
+            }
+        };
     }
 
     @Override
@@ -132,4 +196,5 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
         sb.append("}");
         return sb.toString();
     }
+
 }
