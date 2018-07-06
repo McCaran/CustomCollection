@@ -50,7 +50,7 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
                 if (elements[i] == null) {
                     delete(i);
                 }
-            } else if (elements[i].equals(element)) {
+            } else if (elements[i].toString().equals(element.toString())) {
                 delete(i);
             }
         }
@@ -69,7 +69,7 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
             }
         } else for (int i = 0; i < size; i++) {
             if (elements[i] == null) continue;
-            if (elements[i].equals(element)) return true;
+            if (elements[i].toString().equals(element.toString())) return true;
         }
         return false;
     }
@@ -81,10 +81,12 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
     }
 
     public void trimToSize() {
+        System.out.println("Изначальный размер: " + capacity);
         Number[] newArray = new Number[size];
         System.arraycopy(elements,0, newArray, 0, size);
         elements = newArray;
         capacity = newArray.length;
+        System.out.println("Новый размер:    " + capacity);
     }
 
     public Double getAverage() {
