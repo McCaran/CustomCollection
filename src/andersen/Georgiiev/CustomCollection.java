@@ -84,6 +84,7 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
         Number[] newArray = new Number[size];
         System.arraycopy(elements,0, newArray, 0, size);
         elements = newArray;
+        capacity = newArray.length;
     }
 
     public Double getAverage() {

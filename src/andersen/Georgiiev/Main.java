@@ -1,11 +1,8 @@
 package andersen.Georgiiev;
 
-import java.util.ArrayList;
-
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<String> arrayList = new ArrayList();
         CustomCollection<Number> testCollection = new CustomCollection<>();
         for (int i = 0; i < 8; i++ ) {
             testCollection.add(i);
@@ -18,5 +15,7 @@ public class Main {
         System.out.println(testCollection.getMin());
         System.out.println(testCollection.getAverage());
         testCollection.trimToSize();
+        testCollection.add(-3);
+        System.out.println(testCollection);
     }
 }
