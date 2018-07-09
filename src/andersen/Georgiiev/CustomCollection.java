@@ -3,6 +3,13 @@ package andersen.Georgiiev;
 import java.util.Iterator;
 import java.util.Objects;
 
+/**
+ * Класс, реализующий свою коллекцию и все необходимыне методы:
+ * добавление, удаление, поиск, а так же дополнительные методы
+ * и получение рабочего итератора для цикла for each
+ * @param <T> - численная переменная для хранения в коллекции
+ */
+
 public class CustomCollection<T extends Number> implements Iterable<T>{
     private final int DEFAULT_CAPACITY = 10;
     private Number[] elements;
