@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b5cbf58-6195-43c9-a77a-11ef73a73cd4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CustomCollection/andersen/Georgiiev/CustomCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CustomCollection/andersen/Georgiiev/CustomCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/andersen/Georgiiev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/andersen/Georgiiev/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="6b5cbf58-6195-43c9-a77a-11ef73a73cd4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -28,10 +24,12 @@
       <file leaf-file-name="CustomCollection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/CustomCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="153" selection-start-line="153" selection-end-line="153" />
+            <state relative-caret-position="120">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
                 <element signature="method#CustomCollection#1;class#CustomCollection#0" />
                 <element signature="method#add#0;class#CustomCollection#0" />
                 <element signature="method#add#1;class#CustomCollection#0" />
@@ -44,10 +42,16 @@
                 <element signature="method#getAverage#0;class#CustomCollection#0" />
                 <element signature="method#getMax#0;class#CustomCollection#0" />
                 <element signature="method#getMin#0;class#CustomCollection#0" />
+                <element signature="e#3739#3740#0" expanded="true" />
+                <element signature="e#3766#3767#0" expanded="true" />
+                <element signature="e#3798#3799#0" expanded="true" />
+                <element signature="e#3832#3833#0" expanded="true" />
                 <element signature="method#getNumbers#0;class#CustomCollection#0" />
                 <element signature="method#delete#0;class#CustomCollection#0" />
                 <element signature="method#grow#0;class#CustomCollection#0" />
                 <element signature="method#iterator#0;class#CustomCollection#0" />
+                <element signature="e#4758#4759#0" expanded="true" />
+                <element signature="e#4812#4813#0" expanded="true" />
                 <element signature="method#toString#0;class#CustomCollection#0" />
               </folding>
             </state>
@@ -77,8 +81,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/andersen/Georgiiev/CustomCollection.java" />
         <option value="$PROJECT_DIR$/src/andersen/Georgiiev/Main.java" />
+        <option value="$PROJECT_DIR$/src/andersen/Georgiiev/CustomCollection.java" />
       </list>
     </option>
   </component>
@@ -103,8 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -128,6 +130,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,15 +181,15 @@
       <workItem from="1531121567230" duration="96000" />
       <workItem from="1531121756165" duration="641000" />
       <workItem from="1531126956074" duration="121000" />
+      <workItem from="1531127090698" duration="341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28054000" />
+    <option name="totallyTimeSpent" value="28395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -197,10 +201,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996151" weight="0.328594" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328594" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32786885" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24942264" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2585794" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -231,8 +235,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -242,6 +246,8 @@
           <caret line="153" selection-start-line="153" selection-end-line="153" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -254,10 +260,58 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
+            <element signature="method#toString#0;class#CustomCollection#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/CustomCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="method#CustomCollection#1;class#CustomCollection#0" />
+            <element signature="method#add#0;class#CustomCollection#0" />
+            <element signature="method#add#1;class#CustomCollection#0" />
+            <element signature="method#get#0;class#CustomCollection#0" />
+            <element signature="method#remove#0;class#CustomCollection#0" />
+            <element signature="method#removeByIndex#0;class#CustomCollection#0" />
+            <element signature="method#contains#0;class#CustomCollection#0" />
+            <element signature="method#clear#0;class#CustomCollection#0" />
+            <element signature="method#trimToSize#0;class#CustomCollection#0" />
+            <element signature="method#getAverage#0;class#CustomCollection#0" />
+            <element signature="method#getMax#0;class#CustomCollection#0" />
+            <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
+            <element signature="method#getNumbers#0;class#CustomCollection#0" />
+            <element signature="method#delete#0;class#CustomCollection#0" />
+            <element signature="method#grow#0;class#CustomCollection#0" />
+            <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -276,6 +330,8 @@
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -288,10 +344,16 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -310,6 +372,8 @@
           <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -322,10 +386,16 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -344,6 +414,8 @@
           <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -356,10 +428,16 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -378,6 +456,8 @@
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -390,10 +470,16 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -412,6 +498,8 @@
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -424,10 +512,16 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -474,6 +568,8 @@
           <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -486,10 +582,16 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -515,6 +617,8 @@
           <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -527,10 +631,16 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -549,6 +659,8 @@
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -561,10 +673,16 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -583,6 +701,8 @@
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -595,10 +715,16 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
@@ -649,16 +775,18 @@
     <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/andersen/Georgiiev/CustomCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        <state relative-caret-position="120">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="method#CustomCollection#1;class#CustomCollection#0" />
             <element signature="method#add#0;class#CustomCollection#0" />
             <element signature="method#add#1;class#CustomCollection#0" />
@@ -671,10 +799,16 @@
             <element signature="method#getAverage#0;class#CustomCollection#0" />
             <element signature="method#getMax#0;class#CustomCollection#0" />
             <element signature="method#getMin#0;class#CustomCollection#0" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
             <element signature="method#getNumbers#0;class#CustomCollection#0" />
             <element signature="method#delete#0;class#CustomCollection#0" />
             <element signature="method#grow#0;class#CustomCollection#0" />
             <element signature="method#iterator#0;class#CustomCollection#0" />
+            <element signature="e#4758#4759#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
             <element signature="method#toString#0;class#CustomCollection#0" />
           </folding>
         </state>
