@@ -83,10 +83,11 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
         return false;
     }
 
-    public void clear() {
+    public boolean clear() {
         elements = new Number[DEFAULT_CAPACITY];
         size = 0;
         capacity = DEFAULT_CAPACITY;
+        return true;
     }
 
     public boolean trimToSize() {

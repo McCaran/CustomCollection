@@ -74,9 +74,8 @@ public class TestCustomCollection {
         customCollection.add(5);
         customCollection.add(6);
         customCollection.add(7);
-        customCollection.clear();
-        assertEquals("Clearing failed",
-                0, customCollection.getSize());
+        assertTrue("Clearing failed",
+                customCollection.clear());
     }
 
     @Test
