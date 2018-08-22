@@ -1,7 +1,6 @@
 package andersen.Georgiiev;
 
 import java.util.Iterator;
-import java.util.Objects;
 
 /**
  * Класс, реализующий свою коллекцию и все необходимыне методы:
@@ -28,26 +27,28 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
         }
     }
 
-    public void add(T element) {
+    public boolean add(T element) {
         if (size == capacity) {
             grow();
         }
         elements[size++] = element;
+        return true;
     }
 
-    public void add(int index, T element) {
-        Objects.checkIndex(index, size+1);
+    public boolean add(int index, T element) {
+        if (!checkIndex(index, size+1)) return false;
         if (size == capacity) {
             grow();
         }
         System.arraycopy(elements, index, elements, index+1, size-index);
         elements[index] = element;
         size++;
+        return true;
     }
 
     public T get(int index) {
-        Objects.checkIndex(index, size);
-        return (T)elements[index];
+        if (checkIndex(index, size)) return (T)elements[index];
+        else return null;
     }
 
     public boolean remove(T element) {
@@ -64,9 +65,10 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
         return true;
     }
 
-    public void removeByIndex(int index) {
-        Objects.checkIndex(index, size);
+    public boolean removeByIndex(int index) {
+        if (!checkIndex(index, size)) return false;
         delete(index);
+        return true;
     }
 
     public boolean contains(T element) {
@@ -87,13 +89,14 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
         capacity = DEFAULT_CAPACITY;
     }
 
-    public void trimToSize() {
+    public boolean trimToSize() {
         System.out.println("Изначальный размер: " + capacity);
         Number[] newArray = new Number[size];
         System.arraycopy(elements,0, newArray, 0, size);
         elements = newArray;
         capacity = newArray.length;
-        System.out.println("Новый размер:    " + capacity);
+        System.out.println("Новый размер: " + capacity);
+        return true;
     }
 
     public Double getAverage() {
@@ -174,6 +177,11 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
         elements = newArray;
     }
 
+    private boolean checkIndex(int index, int size) {
+        if (index >= size) return false;
+        else return true;
+    }
+
     @Override
     public Iterator<T> iterator() {
         return new Iterator<T>() {
@@ -206,5 +214,4 @@ public class CustomCollection<T extends Number> implements Iterable<T>{
         sb.append("}");
         return sb.toString();
     }
-
 }
