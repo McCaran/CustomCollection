@@ -5,7 +5,7 @@ import org.junit.Test;
 import static junit.framework.Assert.*;
 
 public class TestCustomCollection {
-    CustomCollection<Number> customCollection;
+    private CustomCollection<Number> customCollection;
     @Before
     public void setUp() {
         customCollection = new CustomCollection<>();
